@@ -35,7 +35,7 @@ def run():
   print(f"Grade point for course 3 is: {getGradePoint(grade3)}")
 
   gpa = (getGradePoint(grade1) * credit1 + getGradePoint(grade2) * credit2 + getGradePoint(grade3) * credit3) / (credit1 + credit2 + credit3)
-  print(f"Your GPA is : {gpa}")
+  print(f"Your GPA is: {gpa}")
 
 if __name__ == "__main__":
   run()
